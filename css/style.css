@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
+.select-div {
+  grid-column-start: 3;
+}
+
+.s-1 {
+  max-width: 100px;
+}
