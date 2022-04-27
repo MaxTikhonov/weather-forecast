@@ -1,7 +1,20 @@
 .container {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+body {
+  background-color: #7c0606;
+}
+
+.wrapper {
+  border: 1.4px solid rgb(237, 114, 210);
+  max-height: 600px;
+  height: 400px;
+  background-color: #2d2b07;
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
 }
 
 .select-div {
@@ -9,5 +22,18 @@
 }
 
 .s-1 {
+  color: #d7f30b;
+  background-color: rgb(16, 129, 129);
   max-width: 100px;
+}
+
+.out-1 {
+  font-size: 22px;
+  margin-top: 10px;
+  color: #debe0e;
+}
+
+.h2-1 {
+  color: blueviolet;
+  font-style: italic;
 }
