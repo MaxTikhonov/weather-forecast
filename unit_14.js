@@ -1,3 +1,4 @@
+let idOfMoscow = "524894";
 let objectMain = {
   s1: document.querySelector('.s-1'),
   out1: document.querySelector('.out-1')
@@ -21,3 +22,13 @@ function getWeather() {
     });
 }
 objectMain.s1.addEventListener("change", getWeather);
+window.onload = function getWeather() {
+  fetch(concatString(idOfMoscow))
+    .then(function (resp) { return resp.json() })
+    .then(function (data) {
+      objectMain.out1.innerHTML = `${Math.round(data.main.temp - 273)}&deg;`;
+      console.log(data);
+    })
+    .catch(function () {
+    });
+}
