@@ -4,14 +4,12 @@
 }
 
 body {
-  background-color: #7c0606;
+  background-color: #f1e560;
 }
 
 .wrapper {
-  border: 1.4px solid rgb(237, 114, 210);
   max-height: 600px;
   height: 400px;
-  background-color: #2d2b07;
   display: grid;
   grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
   grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
@@ -22,18 +20,18 @@ body {
 }
 
 .s-1 {
-  color: #d7f30b;
-  background-color: rgb(16, 129, 129);
+  color: #21221b;
+  background-color: rgb(165, 222, 168);
   max-width: 100px;
 }
 
 .out-1 {
   font-size: 22px;
   margin-top: 10px;
-  color: #debe0e;
+  color: #0f0c0aaa;
 }
 
-.h2-1 {
-  color: blueviolet;
+.h2-1 { 
+  color: rgba(38, 13, 2, 0.743);
   font-style: italic;
 }
